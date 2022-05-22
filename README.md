@@ -3,6 +3,23 @@ A Simple Group Manager Bot using Pyrogram, Telethon. Specially This is working w
 <p align="middle">
   <img src="https://telegra.ph/file/c34ea5555a31864d1dd8d.jpg" width='400"'>
 </p>
+<p align="center">
+  <a href="https://www.python.org">
+    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
+
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/TharukRenuja/MissRaya/stargazers">
+    <img src="https://img.shields.io/github/stars/TharukRenuja/MissRaya?style=social">
+
+  </a>
+  
+  <a href="https://github.com/TharukRenuja/MissRaya/fork">
+    <img src="https://img.shields.io/github/forks/TharukRenuja/MissRaya?label=Fork&style=social">
+
+  </a>  
+</p>
 
 ## Plugins not included yet ⚠
 
@@ -37,3 +54,5 @@ $ python3 -m MissRaya
 
 # Contributors
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=TharukRenuja/MissRaya)
+
+[![SLBots](https://img.shields.io/badge/SLBotOfficial-Channel-orange?style=for-the-badge&logo=telegram)](https://telegram.dog/SLBotOfficial)   [![SLBots](https://img.shields.io/badge/SLBotOfficial-Support-red?style=flat&logo=telegram)](https://telegram.dog/trtechguide)  [![SLBots](https://img.shields.io/badge/SLBots-Website-red?style=flat&logo=CodersRank)](https://www.slbots.org)   [![MIT license](https://img.shields.io/badge/License-MIT-blue?style=flat)](https://github.com/TharukRenuja/MissRaya/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TroJanzHEX/Unlimited-Filter-Bot)
