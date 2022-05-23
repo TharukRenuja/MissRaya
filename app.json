@@ -1,0 +1,33 @@
+{
+    "name": "MissRaya",
+    "logo": "https://telegra.ph/file/c34ea5555a31864d1dd8d.jpg",
+    "description": "A Simple Group Manager Bot using Pyrogram, Telethon. Specially This is working with firebase database.",
+    "keywords": [
+        "telegram",
+        "goup-manger",
+        "slbots",
+        "missraya",
+        "bot"
+    ],
+    "website": "https://github.com/TharukRenuja/MissRaya",
+    "repository": "https://github.com/TharukRenuja/MissRaya",
+    "env": {
+        "BOT_TOKEN": {"description": "Your Bot Token", "required": true},
+        "API_ID": {"description": "Your APP ID (You can get this value from my.telegram.org)", "required": true},
+        "API_HASH": {"description": "Your API Hash (You can get this value from my.telegram.org)", "required": true},
+        "FDBURL": {"description": "Your Firebase DataBase Url. (You can get this value from console.firebase.google.com)", "required": true},
+        "LOG_CHNL": {"description": "Your Log Channel Id start with -100. (Make sure bot is admin in channel)", "required": true},
+        "BOT_USERNAME": {"description": "Enter BOT USERNAME without @", "required": true},
+        "ENV": {"description": "Set this to ANYTHING","value": "ANYTHING"}
+    },
+    "buildpacks": [
+        {"url": "heroku/python"}
+        ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "heroku-20"
+}
