@@ -24,6 +24,11 @@ A Simple Group Manager Bot using Pyrogram, Telethon. Specially This is working w
 ## Plugins not included yet ⚠
 
 ## Deploy
+
+### Easy Method
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Y1pXr6?referralCode=ImTharuk) [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TharukRenuja/MissRaya)
+
+### Hard Method
 ```sh
 # Install Git First (apt-instll git)
 $ git clone https://github.com/TharukRenuja/MissRaya
