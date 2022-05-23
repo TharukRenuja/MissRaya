@@ -37,10 +37,10 @@ $ python3 -m MissRaya
 ##### Mandatory Vars
 ```
 [+] Make Sure You Add All These Mandatory Vars. 
-    [-] APP_ID:   You can get this value from my.telegram.org
+    [-] API_ID:   You can get this value from my.telegram.org
     [-] APP_HASH :   You can get this value from my.telegram.org
     [-] FDBURL : Your Firebase DataBase Url. (You can get this value from console.firebase.google.com)
-    [-] BOT_TOKEN: Get from botfarther
+    [-] BOT_TOKEN: Get from @BotFather
     [-] LOG_CHNL: Your Log Channel ID. (Make sure bot is admin in channel)
     [-] BOT_USERNAME: Bot Username.
 [+] The MissRaya won't run without setting the mandatory vars.
