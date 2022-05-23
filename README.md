@@ -57,12 +57,12 @@ $ python3 -m MissRaya
 
 [+] You Must Need To Create Some Keys on Firebase Realtime Database. It's on down below pitcure👇
 <p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/90763454/169789605-70b386ca-ebe6-4aa2-a2b2-d01b5120f1e5.png)"> 
+  <img src="https://user-images.githubusercontent.com/90763454/169789605-70b386ca-ebe6-4aa2-a2b2-d01b5120f1e5.png"> 
 </p>
 
 [+] And then you need to Admins in database as like this👇. You must need at least one admin on bot. You can add new admins through bot after you deployed.
 <p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/90763454/169789380-d229f6d1-f52c-4033-a930-0dc4d99e0cb5.png)"> 
+  <img src="https://user-images.githubusercontent.com/90763454/169789380-d229f6d1-f52c-4033-a930-0dc4d99e0cb5.png"> 
 </p>
 
 
