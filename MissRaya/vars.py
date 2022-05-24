@@ -9,13 +9,6 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 BOT_USERNAME = os.environ.get("BOT_USERNAME")
 INLINE_THUMB = os.environ.get("INLINE_THUMB", "https://telegra.ph/file/c34ea5555a31864d1dd8d.jpg")
 BOT_STARTED = '''
- 
-   __  _______________  ___  _____  _____ 
-  /  |/  /  _/ __/ __/ / _ \/ _ \ \/ / _ |
- / /|_/ // /_\ \_\ \  / , _/ __ |\  / __ |
-/_/  /_/___/___/___/ /_/|_/_/ |_|/_/_/ |_|
-                                           
- 
  ___      _     ___ _            _          _ 
  | _ ) ___| |_  / __| |_ __ _ _ _| |_ ___ __| |
  | _ \/ _ \  _| \__ \  _/ _` | '_|  _/ -_) _` |
