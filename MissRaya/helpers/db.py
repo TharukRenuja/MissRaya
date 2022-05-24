@@ -8,7 +8,7 @@ cred = credentials.Certificate(
     'Database.json')
 
 firebase_admin.initialize_app(cred, {
-    'databaseURL': '{FDBURL}'
+    'databaseURL': '#Erase this #tagged string & replace it to your firebase real time database url'
 })
 
 # Main Ref
