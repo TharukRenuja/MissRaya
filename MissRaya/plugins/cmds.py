@@ -1,15 +1,17 @@
 from pyrogram import filters
 from telethon import events
 from MissRaya.vars import *
+from MissRaya.plugins.help import *
 from MissRaya.helpers.funcs import *
 from MissRaya import tbot, pbot
+from telethon import events, Button
 
 @pbot.on_message(filters.command(commands=['start']))
 async def StartMsg(_, m):
 	if len(m.text) > 7:
 		ty = m.text.split(' ')[-1]
 		if ty == 'help':
-			return await pbot.send_message(m.chat.id, text=HELP_MSG, reply_markup=HELP_BTNS)
+			return await pbot.send_message(m.chat.id, text=HELP_TEXT, reply_markup=btn)
 		elif ty == 'about':
 			return await pbot.send_message(m.chat.id, text=ABOUT_MSG, reply_markup=ABOUT_MSG)
 		else:
@@ -23,6 +25,9 @@ async def StartMsg(_, m):
 async def AboutMsg(_, m):
 	await pbot.send_message(m.chat.id, text=ABOUT_MSG, reply_markup=ABOUT_BTNS)
 
-@pbot.on_message(filters.command(commands=['help']))
-async def HelpMsg(_, m):
-	await pbot.send_message(m.chat.id, text=HELP_MSG, reply_markup=HELP_BTNS)
+@tbot.on(events.NewMessage(pattern="^[/]start$" & "^[/]alive$"))
+async def startgrp(event):
+
+    if event.is_group:
+       await event.reply("**I am alive!**")
+       return

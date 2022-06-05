@@ -4,7 +4,7 @@ from MissRaya.vars import *
 from MissRaya.helpers.funcs import *
 from MissRaya import tbot, pbot
 
-@tbot.on(events.NewMessage(pattern='/.*promote'))
+@tbot.on(events.NewMessage(pattern='/.*bpromote'))
 async def Promote(event):
 	sender = await event.get_sender()
 	chat = await event.get_chat()
