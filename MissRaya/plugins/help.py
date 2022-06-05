@@ -16,7 +16,7 @@ HELP_TEXT = """
 /help - To Get Available Help Menu
 /about - To Know About Me & Devs
 
-Powered By **[Team SL Bots[(https://t.me/SLBotOfficial)**
+Powered By **[Team SL Bots](https://t.me/SLBotOfficial)**
 """
 
 
