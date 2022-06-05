@@ -7,7 +7,7 @@ btn =[
     [Button.inline("Clean", data="clean"), Button.inline("Pugres", data="purges")],
     [Button.inline("Locks", data="locks"), Button.inline("Misc", data="misc")],
     [Button.inline("Pins", data="pins")],
-    [Button.inline('Inline', switch_inline=''),Button.inline('Close', data='close')]]
+    [Button.inline('Close', data='close')]]
 
 HELP_TEXT = """
 **Hey There! Here's my help menu🤗**
