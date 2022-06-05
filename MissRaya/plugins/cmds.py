@@ -25,7 +25,7 @@ async def StartMsg(_, m):
 async def AboutMsg(_, m):
 	await pbot.send_message(m.chat.id, text=ABOUT_MSG, reply_markup=ABOUT_BTNS)
 
-@tbot.on(events.NewMessage(pattern="^[/]start$" & "^[/]alive$"))
+@tbot.on(events.NewMessage(pattern="^[/]start$"))
 async def startgrp(event):
 
     if event.is_group:
