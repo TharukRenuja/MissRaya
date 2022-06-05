@@ -20,14 +20,9 @@ async def StartMsg(_, m):
 	await pbot.send_message(m.chat.id, text=START_MSG.format(m.from_user.mention), reply_markup=START_BTNS)
 	if m.chat.type == 'private':
 		await AddNewUser(str(m.from_user.username), int(m.from_user.id))
+        if m.chat.type == 'group':
+                await pbot.send_message(m.chat.id, text=<b>I'm Alive</b>) 
 
 @pbot.on_message(filters.command(commands=['about']))
 async def AboutMsg(_, m):
-	await pbot.send_message(m.chat.id, text=ABOUT_MSG, reply_markup=ABOUT_BTNS)
-
-@tbot.on(events.NewMessage(pattern="^[/]start$"))
-async def startgrp(event):
-
-    if event.is_group:
-       await event.reply("**I am alive!**")
-       return
+	await pbot.send_message(m.chat.id, text=ABOUT_MSG, reply_markup=ABOUT_BTNS) 
