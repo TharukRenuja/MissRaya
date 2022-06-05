@@ -18,6 +18,14 @@
         "FDBURL": {"description": "Your Firebase DataBase Url. (You can get this value from console.firebase.google.com)", "required": true},
         "LOG_CHNL": {"description": "Your Log Channel Id start with -100. (Make sure bot is admin in channel)", "required": true},
         "BOT_USERNAME": {"description": "Enter BOT USERNAME without @", "required": true},
+        "WELCOME_TEXT": {"description": "Enter BOT Welcome Text Message."},
+        "RULES_TXT": {"description": "Enter BOT Rules Text Message."},
+        "INLINE_THUMB": {"description": "Enter BOT Inline Thumbnail link. Upload your image to telegra.ph & put link here."},
+        "INLINE_ABOUT_TITLE": {"description": "Enter Inline About Title"},
+        "INLINE_ABOUT_THUMB": {"description": "Enter Inline About Thumbnail. Upload your image to telegra.ph & put link here."},
+        "INLINE_ABOUT_DES": {"description": "Enter Inline About Description."},
+        "INLINE_ABOUT_MSG": {"description": "Enter Inline About Message"},
+        "ABOUT_MSG": {"description": "Enter BOT About Message"},
         "ENV": {"description": "Set this to ANYTHING","value": "ANYTHING"}
     },
     "buildpacks": [
