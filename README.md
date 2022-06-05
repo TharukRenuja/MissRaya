@@ -21,8 +21,6 @@ A Simple Group Manager Bot using Pyrogram, Telethon. Specially This is working w
   </a>  
 </p>
 
-## Plugins not included yet ⚠
-
 ## Deploy
 
 ### Easy Method
@@ -54,8 +52,6 @@ $ python3 -m MissRaya
 ## Important ⚠
 
 [+] Go to console.firebase.google.com & Go to Your Project & Go to Project Settings & Go to Service Accounts & Click on <b>Generate New Private Key</b> & It will Download your Database Credentials File & Then rename it to Database.json & Put it on main directory on MissRaya. MissRaya won't work if you don't put it correctly.
-
-[+] After you got the database url replace the string on <b><a href="https://github.com/TharukRenuja/MissRaya/blob/264a07ffc9d8c20b1b7c85c83b2f6391dfc2a6af/MissRaya/helpers/db.py#L11"> Here </b></a> into your realtime database url <b>on your forked repository</b>. 
 
 [+] You Must Need To Create Some Keys on Firebase Realtime Database. It's on down below pitcure👇
 <p align="center">
